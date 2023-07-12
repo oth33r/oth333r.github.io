@@ -5,7 +5,7 @@
 		<nav class="navbar">
 			<a href="/">Home</a>
 			<a href="/projects">Projects</a>
-			<a href="https://github.com/oth33r" class="gh-link"
+			<!--  <a href="https://github.com/oth33r" class="gh-link"
 				><img src="src/img/icons8-github-50.png" alt="github" /></a
 			>
 			<a href="https://t.me/h333llworld" class="tg-link"
@@ -16,7 +16,7 @@
 			>
 			<a href="https://www.instagram.com/__thatwhocame/" class="inst-link"
 				><img src="src/img/icons8-instagram-50.png" alt="instagram" /></a
-			>
+			> -->
 		</nav>
 	</div>
 </header>
