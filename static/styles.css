@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
+
+* {
+	font-family: 'Raleway';
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+:root {
+	--index: calc(1vw + 1vh);
+}
+
+body {
+	position: absolute;
+	background-color: #1c1c1c;
+	overflow-x: hidden;
+}
+
+main {
+	flex-grow: 1;
+}
+
+.bg-hero {
+	position: absolute;
+	width: 40%;
+	left: 20%;
+}
+
+h2 {
+	position: relative;
+	color: white;
+	text-decoration: none;
+	transition: 1s;
+	margin-bottom: 13px;
+	animation: down 1s ease-in-out;
+}
+
+ul {
+	padding-left: 1.4vw;
+}
+
+li {
+	color: lightgray;
+	transition: down 1s ease-in-out;
+}
+
+.container {
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 910px;
+}
+
+.header {
+	width: 100%;
+	border-bottom: 3px solid gray;
+	z-index: 100;
+}
+
+.logo {
+	text-decoration: none;
+	color: white;
+	font-size: calc(var(--index) * 1.25);
+	letter-spacing: 8px;
+	transition: 0.3s;
+}
+
+.header-item {
+	padding: 0.5vh 7vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	padding-top: 0.5vh;
+}
+
+.navbar > * {
+	padding: 0 0.6vw;
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+	display: inline-block;
+}
+
+.logo:hover {
+	color: rgb(243, 77, 77);
+}
+
+@keyframes down {
+	0% {
+		transform: translateY(300px);
+		opacity: 0%;
+	}
+
+	100% {
+		transform: translateY(0px);
+		opacity: 100%;
+	}
+}
+
+.about-title {
+	font-size: calc(var(--index) * 3);
+	display: block;
+	width: min-content;
+	position: absolute;
+	letter-spacing: 6px;
+	left: 10vw;
+	top: 40vh;
+	color: rgb(243, 77, 77);
+	animation: down 0.6s ease-in-out;
+}
+
+.information {
+	position: absolute;
+	display: block;
+	left: 51.5vw;
+	top: 40vh;
+}
+
+.name__surname {
+	position: relative;
+	color: white;
+	text-decoration: none;
+	transition: 1s;
+	margin-bottom: 13px;
+	animation: down 0.6s ease-in-out;
+}
+
+.main__information {
+	width: calc(var(--index) * 25);
+	color: lightgray;
+	font-size: 23px;
+	animation: down 1s ease-in-out;
+}
+
+.vertical {
+	border-left: 6px solid rgb(243, 77, 77);
+	height: 100%;
+	position: absolute;
+	z-index: 101;
+}
+
+.horizontal {
+	border-bottom: 3px solid gray;
+	width: 100%;
+}
+
+@media (max-width: 1270px) {
+	.about-title {
+		font-size: calc(var(--index) * 2);
+	}
+
+	.main__information {
+		width: calc(var(--index) * 20);
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 900px) {
+	.about-title {
+		font-size: calc(var(--index));
+	}
+
+	.main__information {
+		width: calc(var(--index) * 10);
+		font-size: 10px;
+	}
+}
+
+.comic1 {
+	max-width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+p {
+	color: #fff;
+	font-size: 1.5em;
+	margin: 0px;
+}
+
+.img-box {
+	padding-top: 50px;
+	background-size: cover;
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+}
+
+#parseImg {
+	max-width: 100%;
+	height: 100%;
+	image-rendering: optimizeQuality;
+}
+
+.text {
+	padding-top: 50px;
+	color: lightgray;
+	width: 500px;
+}
+
+.text span {
+	font-size: 23px;
+}
+
+.projects {
+	display: flex;
+	width: 100vw;
+}
+
+.projects .container {
+	min-height: 1440px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	margin: 20px 100px 0 100px;
+}
+
+.projects .container h1 {
+	font-size: 48px;
+	animation: down 0.6s ease-in-out;
+}
+
+.project-item {
+	margin-top: 100px;
+	gap: 150px;
+	display: flex;
+	animation: down 0.8s ease-in-out;
+}
+
+.project-item img {
+	width: 600px;
+}
+
+.project-item .info {
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.project-item .info p {
+	font-size: 20px;
+	width: 500px;
+}
+
+.look {
+	width: 150px;
+	height: 50px;
+	border: none;
+	border-radius: 2rem;
+	font-size: 24px;
+	font-family: 'Raleway';
+}
+
+.look:hover {
+	border: 2px solid rgb(243, 77, 77);
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+	cursor: pointer;
+	color: white;
+}
+
+.footer {
+	max-width: 100vw;
+	border-top: 3px solid gray;
+}
+
+.footer .container {
+	display: flex;
+	align-items: center;
+	max-height: 200px;
+	margin: 0 100px;
+}
+
+.footer .container a {
+	margin-right: 50px;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+}
+
+a:hover {
+	color: rgb(243, 77, 77);
+	transition: 0.3s ease-in-out;
+}
+
+.footer .container a:hover {
+	color: rgb(243, 77, 77);
+	transition: 0.3s ease-in-out;
+}
+
+.footer .container .logo {
+	font-size: 32px;
+}
