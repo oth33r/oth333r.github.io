@@ -11,8 +11,7 @@
 			<a href="https://t.me/h333llworld" class="tg-link"
 				><img src="/img/icons8-telegram-32.png" alt="telegram" /></a
 			>
-			<a href="https://mail.ru/" class="email"
-				><img src="/img/icons8-email-32.png" alt="email" /></a
+			<a href="https://mail.ru/" class="email"><img src="/img/icons8-email-32.png" alt="email" /></a
 			>
 			<a href="https://www.instagram.com/__thatwhocame/" class="inst-link"
 				><img src="/img/icons8-instagram-32.png" alt="instagram" /></a
