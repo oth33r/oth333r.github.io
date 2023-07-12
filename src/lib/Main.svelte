@@ -1,6 +1,6 @@
 <main>
 	<div class="container">
-		<img class="bg-hero" src="src/img/hero.png" alt="" />
+		<img class="bg-hero" src="/img/hero.png" alt="" />
 		<h1 class="about-title">ABOUT MYSELF</h1>
 		<div class="information">
 			<h1 class="name__surname">Hi, I'm Ilya Zubkov</h1>

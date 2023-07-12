@@ -3,7 +3,7 @@
 		<h1>MY PROJECTS</h1>
 		<div class="project-list">
 			<div class="project-item item1">
-				<img src="src/img/project1.png" alt="Project1" />
+				<img src="/img/project1.png" alt="Project1" />
 				<div class="info">
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magni quae excepturi
@@ -22,7 +22,7 @@
 					</p>
 					<button class="look">CLICK</button>
 				</div>
-				<img src="src/img/projects2.png" alt="Project2" />
+				<img src="/img/projects2.png" alt="Project2" />
 			</div>
 		</div>
 	</div>
